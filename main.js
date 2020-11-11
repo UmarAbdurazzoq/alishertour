@@ -1,13 +1,13 @@
-var dollarKurs = 9433.34, 
-    yevroKurs = 10354.03;
+var dollarExchangeRate = 9433.34, 
+    yevroExchangeRate = 10354.03;
 
 var personBudget = parseInt (prompt("Alisher, hisobingni krit"), 10);
 var answer = document.querySelector(".answer");
 
  
-var airplane = 500 * dollarKurs,
-    hotel = 250 * dollarKurs,
-    other = 120 * yevroKurs;
+var airplane = 500 * dollarExchangeRate,
+    hotel = 250 * dollarExchangeRate,
+    other = 120 * yevroExchangeRate;
 var spend = airplane + hotel + other;
 
 var difference = spend - personBudget;
